@@ -1,0 +1,77 @@
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+h4 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.game {
+    margin-top: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.game__row {
+    display: flex;
+}
+
+.block {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.cross {
+    background: url("17047.png") no-repeat center;
+    background-size: 50px;
+}
+
+.circle {
+    background: url("pngtree-empty-circle-symbol-png-image_10077554.png") no-repeat center;
+    background-size: 80px;
+}
+
+.new {
+    margin-top: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.cross_win {
+    position: absolute;
+    margin-top: 400px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+.circle_win {
+    position: absolute;
+    margin-top: 400px;
+    left: 50%;
+    transform: translate(-50%);
+    opacity: 0;
+}
+
+.one {
+    border-top-left-radius: 19px ;
+}
+
+.three {
+    border-top-right-radius: 19px ;
+}
+
+.seven {
+    border-bottom-left-radius: 19px ;
+}
+
+.nine {
+    border-bottom-right-radius: 19px ;
+}

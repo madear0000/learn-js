@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h3>Крестики-Нолики</h3>
+    <h4 id="steps"></h4>
+    <div class="game">
+        <div class="game__row">
+            <div id="1" class="block one"></div>
+            <div id="2" class="block"></div>
+            <div id="3" class="block three"></div>
+        </div>
+        <div class="game__row">
+            <div id="4" class="block"></div>
+            <div id="5" class="block"></div>
+            <div id="6" class="block"></div>
+        </div>
+        <div class="game__row">
+            <div id="7" class="block seven"></div>
+            <div id="8" class="block"></div>
+            <div id="9" class="block nine"></div>
+        </div>
+    </div>
+    <div id="cr" class="cross_win">
+        Поздравляем, крестики побеждают
+    </div>
+    <div id='ci' class="circle_win">
+        Поздравляем, нолики побеждают
+    </div>
+    <div class="new">
+        <button id="but" class="btn btn-primary">New Game</button>
+    </div>
+</body>
+</html>
